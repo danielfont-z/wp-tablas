@@ -40,7 +40,7 @@ Una vez activado el XAMPP:
 - Saldrá el una página de XAMPP y deberemos de seleccionar phpMyAdmin ubicado en la parte superior derecha de la página
 - Dentro de phpMyAdmin le daremos a Nuevo, que se ubica en la parte izquierda
 - Deberemos de descargar el proyecto desde Github clonandolo o descargándolo 
-- En la base de datos, en phpMyAdmin, importaremos el proyecto por que sino no funcionará
+- En la base de datos, en phpMyAdmin, importaremos el proyecto por que sino no funcionará y una vez dado seleccionamos el archivo
 - El proyecto deberemos de ponerlo en la carpeta www mencionada en el apartado de instalación de WordPress
 
 ## Construido con 🛠️
