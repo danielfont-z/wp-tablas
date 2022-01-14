@@ -1,83 +1,58 @@
 # Título del Proyecto
 
-_Acá va un párrafo que describa lo que es el proyecto_ [eliminar y escribir una descripción]
+En este proyecto vamos a explicar lo básico de las tablas HTML y sus comandos principales.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Antes de empezar hemos de entender que son las aplicaciones XAMPP, WordPress y Visual Studio Code que utilizaremos para instalar el proyecto:
 
-Mira **Deployment** (Despliegue) para conocer como desplegar el proyecto.
-
+- XAMPP es un paquete de software que consiste en gestión de bases de datos MySQL, servidor Apache, PHP, Perl...
+- WordPress es un sistema de gestión de contenidos web, es decir, sirve para publicar contenido en la web de forma fácil para principiantes.
+- Visual Studio Code es un editor de código fuente compatible con varios lenguajes de programación. 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo: XAMPP, VSC, ...
-```
+Para instalar el software debemos de tener el XAMPP, el WordPress y el Visual Studio Code y un equipo donde hacer los pasos e instalaciones.
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo (de prueba) ejecutandose_
+Para instalar XAMPP y tenerlo operativo con los modulos que necesitamos tenemos que:
+- Ir a la pagina oficial de XAMPP
+- Descargar XAMPP
+- Una vez descargado abrir la aplicación
+- Activar los modulos Apache y MySQL dándole a start
+- Para comprobar si estan activados correctamente tendrían que salir con un entorno verde
 
-_Dí cómo será ese paso_
+Para instalar WordPress.org tenemos que:
+- Ir a la página oficial de WordPress.org y clicar en Get WordPress, ubicado en la parte superior derecha 
+- Después irse abajo de la página y saldrá Download WordPress 5.8.3 y le damos 
+- Una vez descargado ese archivo comprimido deberemos de ir adonde tengamos los archivos de XAMPP, buscar la carpeta htdocs y dentro crearemos una carpeta llamada www y ahí dentro dejaremos el WordPress comprimido
+- Dentro de la carpeta descomprimimos el archivo
+- Lo llamaremos tablas o formularios
 
-```
-Da un ejemplo:
-- Descargar el proyecto desde GitHub (clonando o descargando el proyecto)
-- Directorio donde alojar l'app dentro del XAMPP
-- Localización del .sql
-- Importación de la base de datos
-- ...
-```
+Para instalar Visual Studio Code tenemos que:
+- Entrar en la página principal de Visual Studio Code 
+- Descargar el archivo de éste
+- Una vez hecho y descargado ya lo tendremos
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como probar l'app en el hosting (url, usuarios de prueba, password...)._
+Una vez activado el XAMPP:
+- Abrimos el buscador y escribimos localhost: y luego de estos 2 puntos pondremos el número de puerto seleccionado para el Apache  
+- Saldrá el una página de XAMPP y deberemos de seleccionar phpMyAdmin ubicado en la parte superior derecha de la página
+- Dentro de phpMyAdmin le daremos a Nuevo, que se ubica en la parte izquierda
+- Deberemos de descargar el proyecto desde Github clonandolo o descargándolo 
+- En la base de datos, en phpMyAdmin, importaremos el proyecto por que sino no funcionará
+- El proyecto deberemos de ponerlo en la carpeta www mencionada en el apartado de instalación de WordPress
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-* [VSC](https://code.visualstudio.com/) - Usado para editar código fuente y ejecutar comandos
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-[Crear una nueva [Release](https://docs.github.com/es/repositories/releasing-projects-on-github/about-releases) para el proyecto acabado (este elemento se encuentra en el apartado About del repositorio) utilizando [SemVer](http://semver.org/) para el tag de la [Release](https://docs.github.com/es/repositories/releasing-projects-on-github/about-releases)]
+* XAMPP  
+* Visual Studio Code
+* WordPress
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [dannylarrea](https://github.com/dannylarrea)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Daniel Font Capilla
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+Si te ha servido de mucho y deseas apoyar al creador puedes ayudarle económicamente desde Paypal
